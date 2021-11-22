@@ -9,7 +9,7 @@ package autoboxing;
  *
  * @author ibp1718
  */
-public class Autoboxing {
+public class Boxing {
    
     public static void main( String[] parametroak) {
         int x = 1;
