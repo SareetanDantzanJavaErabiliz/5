@@ -1,12 +1,9 @@
-
-package dantzataldeagetset;
-
-import java.util.Scanner;
-
 /**
  *
  * Egileak: Iñaki Goirizelaia eta Maider Huarte
  */
+import java.util.Scanner;
+
 public class DantzariakGetSet {
     private int adina;
     private String izena;
@@ -15,21 +12,6 @@ public class DantzariakGetSet {
     public DantzariakGetSet ( ) {
         
     }
-    
-/*    public DantzariakGetSet ( ) {
-        Scanner irakur = new Scanner(System.in);
-        System.out.print (" Sartu dantzariaren adina : ");
-        adina = irakur.nextInt ();
-        irakur.nextLine(); // honela bufferean gelditzen den \n garbitzen dugu
-        System.out.print (" Sartu dantzariaren izena : ");
-        izena = irakur.nextLine();
-        System.out.print (" Sartu dantzariaren gustuko dantza : ");
-        gustokoDantza = irakur.nextLine ();
-        //System.out.print (" Sartu dantzariaren adina : ");
-        //adina = irakur.nextInt ();
-        System.out.println ("--------------------------------------");
-        
-    }*/
         
     public DantzariakGetSet (int adina, String izena, String gustukoDantza ){
         this.adina = adina;
